@@ -1,0 +1,29 @@
+body {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    margin-top: 80px;
+    border-collapse: collapse;
+    display: none;
+    width: 100%;
+}
+
+td,
+th {
+
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.show-table {
+    width: 100%;
+    padding: 0.4em 0em;
+    font-size: 3em;
+    background-color: rgb(44, 37, 170);
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <h1>Personal Data Form</h1>
+    <form action="">
+        <label for="Subject">Subject:</label>
+        <input type="text" id="Subject" name="Subject" required>
+    
+        <label for="Description">Description:</label>
+        <input type="text" id="Description" name="Description" min="1" required>
+    
+        <label for="UserTypes">UserTypes:</label>
+        <input type="text" id="UserTypes" name="UserTypes" required>
+    
+        <label for="TechnologyUsed">Technology Used:</label>
+        <input type="text" id="TechnologyUsed" name="TechnologyUsed" required>
+
+        <input type="submit" id="submit">
+    </form>
+
+
+    <div class="card">
+        <div class="card-content">
+            <h1>Welcome!</h1>
+            <p><strong>Subject:</strong> <span id="aSubject"></span></p>
+            <p><strong>Description:</strong> <span id="aDescription"></span></p>
+            <p><strong>User Types:</strong> <span id="aUserTypes"></span></p>
+            <p><strong>Technology Used:</strong> <span id="aTechnologyUsed"></span></p>
+        </div>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
